@@ -161,6 +161,8 @@ src_prepare() {
 		eapply "${FILESDIR}/${P}-remove-unity-trash.patch"
 	fi
 
+	eapply "${FILESDIR}/${P}-AM_GNU_GETTEXT-fix.patch"
+
 	eapply_user
 
 	config_rpath_update "${S}/config.rpath"

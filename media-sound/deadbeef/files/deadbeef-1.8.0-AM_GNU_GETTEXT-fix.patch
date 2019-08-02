@@ -1,0 +1,13 @@
+diff --git a/configure.ac b/configure.ac
+index 15883900..cd208109 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -17,7 +17,7 @@ AC_PROG_INSTALL
+ dnl AC_PROG_LIBTOOL
+ AC_CONFIG_MACRO_DIR([m4])
+ AC_C_BIGENDIAN
+-AM_GNU_GETTEXT
++AM_GNU_GETTEXT([external])
+ PKG_PROG_PKG_CONFIG
+ AM_PROG_CC_C_O
+ 
